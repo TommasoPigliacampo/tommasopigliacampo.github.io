@@ -1,59 +1,242 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Il mio sito</title>
+  <title>Tommaso Pigliacampo — Economist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="hero">
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Progetti</a>
-      <a href="#contact">Contatti</a>
-    </nav>
-
-    <div class="hero-content">
-      <img src="profile.jpg" alt="Foto profilo" class="avatar" />
-      <h1>Nome Cognome</h1>
-      <p>Studente / Developer / Ricercatore</p>
+  <nav>
+    <div class="page">
+      <a class="nav-name" href="#about">tommasopigliacampo.github.io</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <main>
-    <section id="about" class="section">
-      <h2>About me</h2>
-      <p>
-        Scrivi qui una breve descrizione: chi sei, cosa studi o fai,
-        cosa ti interessa e su cosa lavori.
+  <section id="about">
+    <div class="page">
+      <div class="section-label">About</div>
+
+      <h1 class="hero-name">Tommaso <em>Pigliacampo</em></h1>
+
+      <p class="hero-role">
+        MSc Student in Economic and Social Sciences · Bocconi University
       </p>
-    </section>
 
-    <section id="projects" class="section">
-      <h2>Progetti</h2>
+      <p class="hero-bio">
+        I study economics at Bocconi University, with research interests in market design,
+        OTC markets and information economics, energy economics, industrial organization,
+        and political economics. My current work focuses on electricity market design,
+        long-term contracting, and policy options for renewable-dominated systems.
+      </p>
 
-      <div class="cards">
-        <article class="card">
-          <h3>Progetto 1</h3>
-          <p>Breve descrizione del progetto.</p>
-          <a href="https://github.com/tuo-username/progetto1" target="_blank">GitHub</a>
-        </article>
-
-        <article class="card">
-          <h3>Progetto 2</h3>
-          <p>Breve descrizione del progetto.</p>
-          <a href="https://github.com/tuo-username/progetto2" target="_blank">GitHub</a>
-        </article>
+      <div class="hero-links">
+        <a href="mailto:tommaso.pigliacampo@studbocconi.it">Email ↗</a>
+        <a href="https://www.linkedin.com/in/tommaso-pigliacampo-23012625b/" target="_blank">LinkedIn ↗</a>
+        <a href="https://github.com/TommasoPigliacampo" target="_blank">GitHub ↗</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact" class="section">
-      <h2>Contatti</h2>
-      <p>Email: tuaemail@example.com</p>
-      <p>LinkedIn: <a href="#">il tuo profilo</a></p>
-      <p>GitHub: <a href="https://github.com/tuo-username">tuo-username</a></p>
-    </section>
-  </main>
+  <section id="research">
+    <div class="page">
+      <div class="section-label">Research & Working Papers</div>
+
+      <div class="projects-list">
+        <div class="project-item">
+          <div>
+            <div class="project-title">
+              Reforming EU Electricity Market Design via PPAs, CfDs, and Long-Term Signals
+            </div>
+            <div class="project-desc">
+              Evidence and policy options from Italy. Joint work with F. Decarolis.
+              Submitted. Draft available upon request.
+            </div>
+            <div class="project-tags">
+              <span class="tag">Energy Economics</span>
+              <span class="tag">Market Design</span>
+              <span class="tag">Industrial Organization</span>
+              <span class="tag">Policy</span>
+            </div>
+            <a class="project-link" href="https://github.com/TommasoPigliacampo/Reforming-EU-Electricity-Market-Design-Evidence-and-Policy-Options-from-Italy/blob/main/Reforming%20EU%20Electricity%20Market%20Design%20via%20PPAs.%20CfDs%20and%20Long%20Term%20Signals%20Evidence%20and%20Policy%20Options%20from%20Italy%20-%20Preview.pdf" target="_blank">
+              Preview ↗
+            </a>
+          </div>
+          <div class="project-year">2026</div>
+        </div>
+
+        <div class="project-item">
+          <div>
+            <div class="project-title">Education and Crime: Recent Evidence from Italian Provinces</div>
+            <div class="project-desc">
+              Undergraduate thesis. Advisor: Prof. M. Anelli.
+            </div>
+            <div class="project-tags">
+              <span class="tag">Applied Economics</span>
+              <span class="tag">Crime</span>
+              <span class="tag">Education</span>
+            </div>
+            <a class="project-link" href="https://github.com/TommasoPigliacampo/Undergrad-thesis/blob/main/Pigliacampo%20-%20Undergraduate%20thesis.pdf" target="_blank">
+              Read Thesis ↗
+            </a>
+          </div>
+          <div class="project-year">2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="page">
+      <div class="section-label">Experience & Education</div>
+
+      <div class="cv-list">
+        <div class="cv-item">
+          <div class="cv-period">2024 — now</div>
+          <div>
+            <div class="cv-role">MSc in Economic and Social Sciences</div>
+            <div class="cv-where">Bocconi University</div>
+            <div class="cv-detail">
+              Selected coursework: Game Theory, Empirical Industrial Organization and Market Design,
+              Political Economics, Labor Economics, International Macro and Finance, Bayesian Statistics,
+              Macroeconometrics, and Applied ML with Python.
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-period">2021 — 2024</div>
+          <div>
+            <div class="cv-role">BSc in Economics and Finance</div>
+            <div class="cv-where">Bocconi University</div>
+            <div class="cv-detail">
+              Selected coursework: Applied Stochastic Processes, Risk Management with Derivatives,
+              Monetary Economics, Economics of Poverty, Inequality and Income Distribution.
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-period">Feb. 2026 — now</div>
+          <div>
+            <div class="cv-role">Research Assistant</div>
+            <div class="cv-where">BAFFI, Bocconi University · PI: Prof. F. Decarolis</div>
+            <div class="cv-detail">
+              RA for the Enel Foundation Chair in Competitiveness and Transition. Developed AI-based
+              workflows to support economic research and policy analysis; collected and analyzed data
+              on long-term contracting in electricity markets.
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-period">Sept. 2025 — Jan. 2026</div>
+          <div>
+            <div class="cv-role">Research Assistant</div>
+            <div class="cv-where">Bocconi University · PI: Prof. F. Decarolis</div>
+            <div class="cv-detail">
+              Worked on policy research on electricity market design in collaboration with Enel Foundation.
+              Reviewed literature on risk allocation and long-term contracting; analyzed risk-stacking
+              properties of long-term contracts.
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-period">2024 — now</div>
+          <div>
+            <div class="cv-role">Yacht Sailor, RS21 class</div>
+            <div class="cv-where">Bocconi Sailing Team</div>
+            <div class="cv-detail">
+              Multiple U23 national podiums. Advisor for the team selection process for the 2025–2026 season.
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-period">2015 — 2021</div>
+          <div>
+            <div class="cv-role">ILCA and Yacht Sailor</div>
+            <div class="cv-where">Club Vela Portocivitanova</div>
+            <div class="cv-detail">
+              Sailing in dinghies, inshore, and offshore yacht racing, up to international regattas.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="page">
+      <div class="section-label">Skills & Additional Information</div>
+
+      <div class="info-block">
+        <h3>Technical Skills</h3>
+        <p>
+          <strong>Techniques:</strong> causal inference, time-series analysis, empirical IO methods,
+          predictive modeling, prompt engineering.
+        </p>
+        <p>
+          <strong>Software:</strong> Microsoft Office, Excel, VBA, LaTeX.
+        </p>
+        <p>
+          <strong>Programming:</strong> Python, Stata, C++, R, Matlab.
+        </p>
+        <p>
+          <strong>Libraries:</strong> pandas, statsmodels, SciPy, scikit-learn, seaborn,
+          BeautifulSoup, Hugging Face.
+        </p>
+      </div>
+
+      <div class="info-block">
+        <h3>Languages</h3>
+        <p>Italian native, English proficient, French basic, German basic.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Additional Information</h3>
+        <p>
+          General interests include quantitative approaches to sports and games, finance, and philosophy.
+          Previous academic results include the Italian Astronomy Championships National Final 2019 and
+          the Regione Marche Excellence Award 2021.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="page">
+      <span class="footer-copy">© 2026 Tommaso Pigliacampo</span>
+      <div class="footer-links">
+        <a href="mailto:tommaso.pigliacampo@studbocconi.it">Email</a>
+        <a href="https://github.com/TommasoPigliacampo" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/tommaso-pigliacampo-23012625b/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.project-item, .cv-item, .info-block').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
